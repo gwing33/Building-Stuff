@@ -4,20 +4,20 @@
 
 namespace Building_Stuff.Controllers
 {
-    public class HomeController : Controller
+  public class HomeController : Controller
+  {
+    // GET: /<controller>/
+    public IActionResult Index()
     {
-        // GET: /<controller>/
-        public IActionResult Index()
-        {
-            ViewBag.title = "Building Stuff";
-            return View();
-        }
-
-        // GET: /<controller>/
-        public IActionResult Profile()
-        {
-          ViewBag.title = "Building Stuff";
-          return View();
-        }
+      ViewBag.title = "Building Stuff";
+      return View();
     }
+
+    // GET: /<controller>/
+    public IActionResult Profile()
+    {
+      ViewBag.title = "Building Stuff";
+      return View();
+    }
+  }
 }

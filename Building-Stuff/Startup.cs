@@ -6,20 +6,20 @@ using Microsoft.Framework.DependencyInjection;
 
 namespace Building_Stuff
 {
-    public class Startup
+  public class Startup
+  {
+    public void Configure(IApplicationBuilder app)
     {
-        public void Configure(IApplicationBuilder app)
-        {
-            app.UseErrorPage();
+      app.UseErrorPage();
 
-            app.UseServices(services =>
-            {
-                services.AddMvc();
-            });
+      app.UseServices(services =>
+      {
+        services.AddMvc();
+      });
 
-            app.UseMvc();
+      app.UseMvc();
 
-            app.UseWelcomePage();
-        }
+      app.UseWelcomePage();
     }
+  }
 }
