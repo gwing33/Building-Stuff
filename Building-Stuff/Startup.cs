@@ -10,13 +10,13 @@ namespace Building_Stuff
     {
         public void Configure(IApplicationBuilder app)
         {
-
             app.UseErrorPage();
 
             app.UseServices(services =>
             {
                 services.AddMvc();
             });
+
             app.UseMvc();
 
             app.UseWelcomePage();

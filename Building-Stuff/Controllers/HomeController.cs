@@ -12,5 +12,12 @@ namespace Building_Stuff.Controllers
             ViewBag.title = "Building Stuff";
             return View();
         }
+
+        // GET: /<controller>/
+        public IActionResult Profile()
+        {
+          ViewBag.title = "Building Stuff";
+          return View();
+        }
     }
 }
