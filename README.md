@@ -3,7 +3,11 @@ Building-Stuff
 Learning to create a project that hosts different builders and their projects.
 
 ## Installation
-TODO
+
+- Clone the Repo
+- `$ cd Building-Stuff`
+- `$ npm install`
+
 
 ## Task List
 
