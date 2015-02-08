@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "gulp": "^3.8.10",
+    "gulp-cached": "^1.0.2",
     "gulp-less": "^2.0.1",
     "less": "^2.3.1"
   }
