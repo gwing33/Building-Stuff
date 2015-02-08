@@ -2,6 +2,13 @@ Building-Stuff
 ==============
 Learning to create a project that hosts different builders and their projects.
 
+## Installation
+
+- Clone Repo
+- `$ cd Building-Stuff`
+- Run `$ kpm restore` to restore the required packages.
+- Run `$ k web` on Windows or `k kestrel` on Mono
+
 ## Task List
 
 ### Programming
